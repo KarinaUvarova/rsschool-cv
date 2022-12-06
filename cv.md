@@ -1,3 +1,3 @@
 # Karina Uvarova
 
-## Contacts
+## Contact
