@@ -1,1 +1,221 @@
-Шаблон
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #f8f3ee;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-list {
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #454545;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f8f3ee;
+  border-bottom: 5px solid #fbeddf;
+}
+.nav-list li {
+  display: inline;
+}
+.nav-link {
+  transition: 0.3s;
+}
+.nav-item a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-item a:hover {
+  color: #4d2323;
+}
+img {
+  width: 23%;
+  display: block;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border: 2px #fbeddf;
+  margin-bottom: 30px;
+}
+.img2 {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+.img2:hover {
+  opacity: 1;
+}
+.img3 {
+  width:5%;
+  float: left;
+}
+.img4 {
+  width:5%;
+  float: right;
+}
+.text-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8f3ee;
+}
+h1 {
+  color: #454545;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.section1 {
+  color: #454545;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #fbeddf;
+  width: 23%;
+  height: 200px;
+  padding: 3px 20px;
+  margin-bottom: 30px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.section2 {
+  float: right;
+  top: 503px;
+  position: absolute;
+  margin-left: 500px;
+  color: #454545;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #f8f3ee;
+  width: 50%;
+  height: 430px;
+  padding: 3px 20px;
+  margin-bottom: 30px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.section3 {
+  color: #454545;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #fbebea;
+  width: 23%;
+  height: 200px;
+  padding: 3px 20px;
+  margin-bottom: 30px;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+.section5 {
+  color: #454545;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #f8f3ee;
+  width: 23%;
+  height: 200px;
+  padding: 3px 20px;
+  margin-bottom: 30px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.section4 {
+  float: right;
+  margin-left: 500px;
+  top: 963px;
+  color: #454545;
+  position: absolute;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #fbeddf;
+  width: 50%;
+  height: 200px;
+  padding: 3px 20px;
+  margin-bottom: 30px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.section6 {
+  color: #454545;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #fbebea;
+  width: 23%;
+  height: 200px;
+  padding: 3px 20px;
+  margin-bottom: 30px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.section7 {
+  float: right;
+  margin-left: 500px;
+  top: 1193px;
+  color: #454545;
+  position: absolute;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #f3f3f3;
+  width: 50%;
+  height: 200px;
+  padding: 3px 20px;
+  margin-bottom: 30px;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+h3 {
+  color: #454545;
+  text-align: center;
+  font-size: 18px;
+}
+h4 {
+  text-align: center;
+}
+#profile {
+  color: #454545;
+  position: absolute;
+  width: 50%;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: 0px 500px 20px 500px;
+}
+table {
+  border-spacing: 0 4px;
+}
+td {
+  padding: 4px 0px;
+}
+td:nth-child(2) {
+  padding: 0px 0px 0px 60px;
+}
+html {
+  scroll-behavior: smooth;
+}
