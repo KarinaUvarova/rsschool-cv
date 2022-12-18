@@ -22,70 +22,143 @@
   </head>
   <body>
     <header class="header">
-      <div class="container"></div>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#profile" class="nav-link">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contacts" class="nav-link">Contacts</a>
-          </li>
-          <li class="nav-item">
-            <a href="#education" class="nav-link">Education</a>
-          </li>
-          <li class="nav-item">
-            <a href="#courses" class="nav-link">Courses</a>
-          </li>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
 
           <li class="nav-item">
             <a href="#English level" class="nav-link">English level</a>
           </li>
 
-          <li class="nav-item">
-            <a href="#code" class="nav-link">Code</a>
-          </li>
-        </ul>
-      </nav>
-      <h1>Karina Uvarova</h1>
-      <h3>Front-end Developer</h3>
-      <div id="profile">
-        <h2>Profile</h2>
-        <p>
-          Computer science has been my favorite subject since high school. At
-          the university, I enjoyed writing my first codes, but I studied at the
-          Faculty of Economics and computer science was not enough for me there.
-          Programming has remained an unfulfilled dream. Working as an
-          economist, I tried to automate everything I could. At the same time,
-          in partnership with my husband, I took up photography and became an
-          advanced user of Adobe Photoshop. Recently we had a small business - a
-          delivery restaurant, and I was setting up the site and I really liked
-          it. Now I have moved to another country, there are new opportunities
-          and I am studying what I thought about from an early age.
-        </p>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+          </ul>
+        </nav>
+        <h1>Karina Uvarova</h1>
+        <h3>Front-end Developer</h3>
+        <div class="profile-container">
+          <img src="assets/image.jpg" alt="my photo" />
+          <div id="profile">
+            <h2>Profile</h2>
+            <p>
+              Computer science has been my favorite subject since high school.
+              At the university, I enjoyed writing my first codes, but I studied
+              at the Faculty of Economics and computer science was not enough
+              for me there. Programming has remained an unfulfilled dream.
+              Working as an economist, I tried to automate everything I could.
+              At the same time, in partnership with my husband, I took up
+              photography and became an advanced user of Adobe Photoshop.
+              Recently we had a small business - a delivery restaurant, and I
+              was setting up the site and I really liked it. Now I have moved to
+              another country, there are new opportunities and I am studying
+              what I thought about from an early age.
+            </p>
+          </div>
+        </div>
       </div>
-      <img src="assets/image.jpg" alt="my photo" />
     </header>
-    <main class="main">
-      <div class="container"></div>
+    <main class="main-container">
+      <div class="three-sections-wrapper">
+        <div class="skills-contacts-wrapper">
+          <section class="section1" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+              <li>HTML, CSS</li>
+              <li>Adobe Photoshop</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </section>
+          <section class="section3" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+              <li><b>Discord </b> karisha2606 #3867</li>
+              <li><b>E-mail</b> karisha2606@gmail.com</li>
+              <li><b>Telegram </b> karina_uv</li>
+            </ul>
+          </section>
+        </div>
 
-      <section class="section1" id="skills">
-        <h2 class="section-title">Skills</h2>
-        <ul>
-          <li>HTML, CSS</li>
-          <li>Adobe Photoshop, Lightroom</li>
-          <li>Git, GitHub</li>
-          <li>VS Code</li>
-        </ul>
-      </section>
-      <section class="section2" id="projects">
-        <h2 class="section-title">Projects</h2>
+        <section class="section2" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <p>
+            <a href="https://karinauvarova.github.io/rsschool-cv/"
+              ><img src="assets/image2.jpg" class="img2" alt="My project"
+            /></a>
+          </p>
+        </section>
+      </div>
+      <div class="crs-ed-wrapper">
+        <section class="section5" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>2007-2012</p>
+          <p><b>Department of Economics</b></p>
+          <p>Ufa State Petroleum Technological University</p>
+        </section>
+        <section class="section4" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>IT Fundamentals (EPAM)</td>
+                <td>
+                  <a href="https://learn.epam.com/start">EPAM UpSkill Me</a>
+                </td>
+              </tr>
+              <tr>
+                <td>HTML and CSS Tutorials</td>
+                <td><a href="https://code-basics.com/ru">Code Basics</a></td>
+              </tr>
+              <tr>
+                <td>JavaScript/Front-end. Stage 0</td>
+                <td>
+                  <a href="https://rollingscopes.com/"
+                    >The Rolling Scopes School</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p></p>
+        </section>
+      </div>
+      <div class="code-level-wrapper">
+        <section class="section6" id="English-level">
+          <h2 class="section-title">English level</h2>
+          <p><b>B1 </b> by EF SET</p>
+          <p><b>A2 </b> by EPAM</p>
+        </section>
+        <section class="section7" id="code">
+          <h2 class="section-title">Code</h2>
+          <code
+            >function multiply(a, b){<br />
+            return a * b;<br />
+            }</code
+          >
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
         <p>
           <a href="https://karinauvarova.github.io/rsschool-cv/"
             ><img src="assets/image2.jpg" class="img2" alt="My project"
