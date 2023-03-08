@@ -3,7 +3,7 @@
 ### Contacts 
 * Location: Antalya, Turkey
 * Discord karisha2606 #3867
-* E-mail [karisha2606@gmail.com]
+* E-mail karisha2606@gmail.com
 * Telegram karina_uv
 
 ### Profile
@@ -16,21 +16,23 @@ Computer science has been my favorite subject since high school. At the universi
 * VS Code
 
 #### Code
+```
 function bingo(ticket, win){
   if (ticket.filter(i => i[0].split('').some(j => j.charCodeAt(0) == i[1])).length >= win)
   return "Winner!";
 else
   return "Loser!";
 }
+```
 
 #### Projects
-[https://karinauvarova.github.io/rsschool-cv/]
-[https://rolling-scopes-school.github.io/karinauvarova-JSFEPRESCHOOL2022Q4/plants/]
-[https://rolling-scopes-school.github.io/karinauvarova-JSFEPRESCHOOL2022Q4/momentum/]
+* https://karinauvarova.github.io/rsschool-cv/ 
+* https://rolling-scopes-school.github.io/karinauvarova-JSFEPRESCHOOL2022Q4/plants/
+* https://rolling-scopes-school.github.io/karinauvarova-JSFEPRESCHOOL2022Q4/momentum/
 
 #### Education
 2007-2012
-Department of Economics
+Department of Economics,
 Ufa State Petroleum Technological University
 
 #### Courses
